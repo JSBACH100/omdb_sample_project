@@ -1,0 +1,19 @@
+.search_bar {
+  width: 100%;
+  position: fixed;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0 auto;
+  background-color: black;
+  justify-content: center;
+}
+
+/* Style the search box inside the navigation bar */
+.search_bar input[type=text] {
+  display: block;
+  width: 40%;
+  margin: 0 auto;
+  font-size: 17px;
+  border: 2px solid blue;
+  border-radius: 4px;
+}

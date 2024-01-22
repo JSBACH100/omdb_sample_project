@@ -1,0 +1,56 @@
+@import "../../../app/variables.module.scss";
+
+.grid {
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie_item {
+    width: 300px;
+    height: 450px;
+    margin: 50px 40px;
+}
+
+.movie_item:hover {
+    transform: scale(1.3);
+    transition: transform 0.5s;
+}
+
+.movie_item img {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: $desktop_large_bp) {
+    .movie_item {
+        width: 220px;
+        height: 330px;
+        margin: 45px 35px;
+    }
+}
+
+@media screen and (max-width: $desktop_bp) {
+    .movie_item {
+        width: 160px;
+        height: 240px;
+        margin: 40px 30px;
+    }
+}
+
+@media screen and (max-width: $tablet_bp) {
+    .movie_item {
+        width: 120px;
+        height: 180px;
+        margin: 35px 25px;
+    }
+}
+
+@media screen and (max-width: $mobile_bp) {
+    .movie_item {
+        width: 90px;
+        height: 135px;
+        margin: 30px 20px;
+    }
+}

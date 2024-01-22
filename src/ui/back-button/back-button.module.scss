@@ -1,0 +1,50 @@
+@import "../../app//variables.module.scss";
+@import "../../app/mixins.scss";
+
+.back_button {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    align-items: center;
+}
+
+.back_button img {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.back_button span {
+    line-height: 30px;
+}
+
+@media screen and (max-width: $tablet_bp) {
+  .back_button img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .back_button span {
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: $mobile_bp) {
+    .back_button {
+        height: 35px;
+        margin-left: 15px;
+    }
+
+    .back_button img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .back_button span {
+        line-height: 16px;
+    }
+}

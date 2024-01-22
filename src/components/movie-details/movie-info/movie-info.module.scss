@@ -1,0 +1,42 @@
+@import "../../../app/variables.module.scss";
+
+.movie_info {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.movie_info p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+@media screen and (max-width: $desktop_bp) {
+
+    .movie_info p {
+        margin-bottom: 14px;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+}
+
+@media screen and (max-width: $tablet_bp) {
+
+    .movie_info p {
+        margin-bottom: 12px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: $mobile_bp) {
+
+    .movie_info p {
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+}

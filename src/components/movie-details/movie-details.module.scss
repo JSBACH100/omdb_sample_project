@@ -1,0 +1,80 @@
+@import "../../app//variables.module.scss";
+@import "../../app/mixins.scss";
+
+.movie_header_container {
+    @include flex_row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.movie_header_container h1 {
+    width: 100%;
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: center;
+}
+
+.movie_details_container {
+    @include flex_row;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: $mobile_bp) {
+    .movie_details_container {
+        flex-wrap: wrap;
+    }
+}
+
+.movie_cover_container {
+    @include flex_column;
+    margin: auto;
+    width: 100%;
+}
+
+.movie_cover_container img {
+    width: 66%;
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.movie_info_container {
+    @include flex_column;
+    margin: auto 40px;
+    width: 60%;
+}
+
+.movie_rating_container {
+    @include flex_row;
+    width: 100%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: center;
+}
+
+@media screen and (max-width: $desktop_large_bp) {
+    .movie_header_container h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: $desktop_bp) {  
+    .movie_header_container h1 {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: $tablet_bp) {
+    .movie_header_container h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: $mobile_bp) {
+    .movie_header_container h1 {
+        font-size: 18px;
+    }
+}

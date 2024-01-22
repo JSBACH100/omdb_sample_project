@@ -1,0 +1,2 @@
+export const DEFAULT_EMPTY_STATE_MESSAGE = "No movies found. Please try a different title.";
+export const DEFAULT_ERROR_STATE_MESSAGE = "We're sorry, something went wrong. Please try again later or contact support if the problem persists.";

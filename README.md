@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Getting Started with Create React App
 
-## Getting Started
+This project was initialized with [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
-First, run the development server:
+## Available Scripts
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+In the project directory, you can run:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### `npm run dev`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Runs the app in the development mode. First create a `.env.local` file in the project's root folder. Obtain your API key [here]() and add to the file with the variable name `NEXT_PUBLIC_OMDB_KEY`.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+The page will reload if you make edits.
 
-## Learn More
+### `npm run build`
 
-To learn more about Next.js, take a look at the following resources:
+Creates a minified/optimized production build.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### `npm run start`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Will locally run the production code located in the `build` folder after running the build script.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## View only the content that is being server side rendered by disabled javascript in chrome dev tools. Instructions [here](https://developer.chrome.com/docs/devtools/javascript/disable).

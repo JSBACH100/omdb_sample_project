@@ -1,0 +1,12 @@
+$desktop_large_bp: 1330px;
+$desktop_bp: 1080px;
+$tablet_bp: 720px;
+$mobile_bp: 480px;
+$mobile_small-bp: 320px;
+
+:export {
+    desktop_large_bp: $desktop_large_bp;
+    desktop_bp: $desktop_bp;
+    tablet_bp: $tablet_bp;
+    mobile_bp: $mobile_bp;
+}
