@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Create Next App
 
 This project was initialized with [Create Next App](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
@@ -21,4 +21,10 @@ Creates a minified/optimized production build.
 
 Will locally run the production code located in the `build` folder after running the build script.
 
-## View only the content that is being server side rendered by disabled javascript in chrome dev tools. Instructions [here](https://developer.chrome.com/docs/devtools/javascript/disable).
+## Testing SSR
+
+View only the content that is being server side rendered by disabled javascript in chrome dev tools. Instructions [here](https://developer.chrome.com/docs/devtools/javascript/disable).
+
+## Live app
+
+View the live version deployed using Verel's CI/CD flow [here](https://omdb-sample-project.vercel.app/)
