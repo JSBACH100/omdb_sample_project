@@ -23,7 +23,7 @@ Will locally run the production code located in the `build` folder after running
 
 ## Testing SSR
 
-View only the content that is being server side rendered by disabled javascript in chrome dev tools. Instructions [here](https://developer.chrome.com/docs/devtools/javascript/disable).
+View only the content that is being server side rendered by disabling javascript in chrome dev tools. Instructions [here](https://developer.chrome.com/docs/devtools/javascript/disable).
 
 ## Live app
 
